@@ -255,9 +255,9 @@
       "shortVenue": "AIES",
       "summary": "",
       "thumbnail": {
-        "src": "/publications/aies-figure.png",
-        "alt": "Concept prober training diagram connecting a precipitation forecast model to radar examples in a concept vector space.",
-        "source": "https://arxiv.org/pdf/2504.00831"
+        "src": "/publications/aies-concept-space.png",
+        "alt": "Radar examples clustered in a concept vector space, with a separating hyperplane and a concept activation vector.",
+        "source": "User-provided aies.png"
       }
     },
     {
