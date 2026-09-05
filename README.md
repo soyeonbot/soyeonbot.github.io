@@ -1,0 +1,42 @@
+# Soyeon Kim — Research website
+
+Personal academic website at **https://soyeonbot.github.io/**.
+
+The English website presents research in explainable AI, weather intelligence, and environmental systems. Content is based on the August 9, 2026 CV. Recent publication links were cross-checked against the supplied reference websites and arXiv records. Peer-reviewed papers and manuscripts under review are presented separately.
+
+## Update content
+
+- `data/profile.json`: publications, resource links, education, experience, and profile links.
+- `app/page.tsx`: introductory text, research areas, selected honors, and section layout.
+- `app/globals.css`: responsive layout, colors, and typography.
+- `public/Soyeon_Kim_CV.pdf`: public CV with the personal phone number removed.
+- `public/og.png`: social sharing card.
+- `app/layout.tsx`: page title, description, canonical URL, and social metadata.
+
+The first seven publication records appear under Recent work; older records are in the expandable Earlier publications section. Update the selected counts and year labels when adding papers. Review current manuscript status before changing a venue or acceptance label. The CVPR compute reporting award describes a compute-reporting initiative; it does not indicate a CVPR paper acceptance.
+
+## Local development
+
+Requires Node.js 22.13 or newer.
+
+```sh
+npm ci
+npm run dev
+```
+
+## Build and deploy
+
+```sh
+npm run build
+```
+
+Vinext produces a static export in `dist/client/`. Only this folder is published to GitHub Pages. No application server, API key, or database is needed by the live website. A generated Worker output may also exist in `dist/server/`; GitHub Pages does not use it.
+
+GitHub Pages is configured to publish through GitHub Actions. Pushing to `main` runs `.github/workflows/pages.yml`, builds the site, and publishes the static export. The workflow uses the automatically supplied GitHub token; never add a personal access token to the repository.
+
+## Design references
+
+- https://leekwoon.github.io/
+- https://han-j-y.github.io/
+
+The design is an original implementation inspired by the supplied references' concise academic introductions and publication-focused organization. No third-party portrait or source code was copied.

@@ -1,0 +1,347 @@
+{
+  "name": "Soyeon Kim",
+  "academicRole": "Ph.D. Candidate",
+  "affiliation": "Kim Jaechul Graduate School of Artificial Intelligence, KAIST",
+  "currentIndustryRole": "Principal Researcher, AI Research Center, INEEJI Co. Ltd.",
+  "location": "Seongnam, Republic of Korea",
+  "email": "soyeon.k@kaist.ac.kr",
+  "bio": "I am a Ph.D. candidate at KAIST, advised by Jaesik Choi, and a Principal Researcher at INEEJI. My research focuses on explainable and trustworthy AI for weather and environmental systems, including feature attribution, concept-based explanations, meteorological AI agents, and multimodal evaluation.",
+  "profileLinks": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/soyeonbot"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=IlU997oAAAAJ&hl=en"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0009-0001-5037-0902"
+    }
+  ],
+  "researchInterests": [
+    "Explainable and trustworthy AI for meteorology, geoscience, land use, and environmental systems",
+    "Interpretable forecasting models, concept-based explanations, and spatial decision support",
+    "Geospatial analysis and science-based evidence generation for environmental policy and planning",
+    "Weather AI agent for reliable, tool-augmented forecasting and decision-support workflows",
+    "Fine-tuning vision language models for meteorological interpretation and weather intelligence",
+    "Benchmarking and evaluating multimodal large language models for meteorological reasoning"
+  ],
+  "education": [
+    {
+      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "location": "Seongnam, Republic of Korea",
+      "degree": "Ph.D. Candidate in Artificial Intelligence",
+      "dates": "Aug. 2020 - Present",
+      "advisor": "Jaesik Choi"
+    },
+    {
+      "institution": "Seoul National University (SNU)",
+      "location": "Seoul, Republic of Korea",
+      "degree": "M.L.A. in Landscape Architecture",
+      "dates": "Mar. 2017 - Feb. 2019",
+      "advisor": "Yonghoon Son",
+      "honors": "Summa Cum Laude (GPA 4.24/4.30); Outstanding Master’s Thesis Award",
+      "thesis": "Assessing Conservation Priority of Unexecuted Urban Parks Using the Urban Park Multifunctional Performance Index"
+    },
+    {
+      "institution": "Kangwon National University (KNU)",
+      "location": "Gangwon, Republic of Korea",
+      "degree": "B.L.A. in Landscape Architecture",
+      "dates": "Mar. 2010 - Feb. 2016",
+      "advisor": "Youngjo Yun",
+      "honors": "Summa Cum Laude (GPA 4.35/4.50)"
+    }
+  ],
+  "experience": [
+    {
+      "organization": "INEEJI Co. Ltd., AI Research Center",
+      "location": "Seongnam, Republic of Korea",
+      "role": "Principal Researcher",
+      "dates": "Dec. 2025 - Present",
+      "details": [
+        "Led end-to-end meteorological AI projects spanning proposal development, forecasting support systems, weather-domain agents, a benchmark for evaluating multimodal LLMs in Korean meteorology, VLM fine-tuning, expert-informed evaluation design, and GPU resource acquisition through funded support programs.",
+        "Concurrent with Ph.D. studies since Dec. 2025."
+      ]
+    },
+    {
+      "organization": "National Institute of Ecology, Ecosystem Service Team",
+      "location": "Seocheon, Republic of Korea",
+      "role": "Research Fellow",
+      "dates": "Jun. 2019 - Aug. 2020",
+      "details": [
+        "Conduct research on ecosystem service evaluation and mapping using GIS, R, and Python.",
+        "Design and analyze citizen and expert surveys to support evidence-based environmental policymaking."
+      ]
+    },
+    {
+      "organization": "Architecture and Urban Research Institute, Smart & Green Research Group",
+      "location": "Sejong, Republic of Korea",
+      "role": "Research Assistant",
+      "dates": "Oct. 2018 - Nov. 2018; Apr. 2019 - Jun. 2019",
+      "details": [
+        "Researched smart-city and regulatory-sandbox case studies to support national land policy development."
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "authors": "Soyeon Kim, Kyowoon Lee, and Jaesik Choi",
+      "title": "Diffusion Integrated Gradients: Controllable Path Generation for Flexible Feature Attribution",
+      "venue": "The 19th European Conference on Computer Vision (ECCV), 2026.",
+      "year": 2026,
+      "status": "peer-reviewed",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2606.22314"
+        },
+        {
+          "label": "Presentation",
+          "url": "https://www.youtube.com/watch?v=N3KhiHMMPG8"
+        }
+      ],
+      "shortVenue": "ECCV",
+      "summary": "Learning a distribution over attribution paths with diffusion models, enabling explanations that can be guided at inference time."
+    },
+    {
+      "authors": "Soyeon Kim, Seongwoo Lim, Kyowoon Lee, and Jaesik Choi",
+      "title": "Spectral Integrated Gradients for Coarse-to-Fine Feature Attribution",
+      "venue": "The 32nd ACM KDD Conference on Knowledge Discovery and Data Mining, Research Track, 2026.",
+      "year": 2026,
+      "status": "peer-reviewed",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2605.19607"
+        },
+        {
+          "label": "Poster",
+          "url": "https://github.com/leekwoon/sig/blob/main/assets/kdd2026_poster.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/leekwoon/sig"
+        }
+      ],
+      "shortVenue": "KDD",
+      "summary": "Constructing attribution paths through singular components, revealing global structure before fine details."
+    },
+    {
+      "authors": "Soyeon Kim, Seongwoo Lim, Kyowoon Lee, and Jaesik Choi",
+      "title": "Manifold-Aligned Guided Integrated Gradients for Reliable Feature Attribution",
+      "venue": "The Forty-third International Conference on Machine Learning (ICML), 2026.",
+      "year": 2026,
+      "status": "peer-reviewed",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2605.02167"
+        },
+        {
+          "label": "Poster",
+          "url": "https://icml.cc/virtual/2026/poster/65250"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/leekwoon/ma-gig"
+        }
+      ],
+      "shortVenue": "ICML",
+      "summary": "Using the latent space of a generative model to keep attribution paths closer to the learned data manifold."
+    },
+    {
+      "authors": "Soyeon Kim, Cheongwoong Kang, Myeongjin Lee, Eun-Chul Chang, Jaedeok Lee, and Jaesik Choi",
+      "title": "K-MetBench: A Multi-Dimensional Benchmark for Fine-Grained Evaluation of Expert Reasoning, Locality, and Multimodality in Meteorology",
+      "venue": "Findings of the Association for Computational Linguistics, 2026.",
+      "year": 2026,
+      "status": "peer-reviewed",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2604.24645"
+        },
+        {
+          "label": "Leaderboard",
+          "url": "https://kmetbench.github.io/"
+        },
+        {
+          "label": "Dataset",
+          "url": "https://huggingface.co/datasets/soyeonbot/K-MetBench"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/kmetbench/kmetbench-release"
+        }
+      ],
+      "shortVenue": "Findings of ACL",
+      "summary": "Evaluating meteorological reasoning through expert knowledge, local context, and multimodal understanding."
+    },
+    {
+      "authors": "Subeen Lee, Jiyeon Han, Soyeon Kim, and Jaesik Choi",
+      "title": "Diverse Rare Sample Generation with Pretrained GANs",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence 39(5):4553–4561, 2025.",
+      "year": 2025,
+      "status": "peer-reviewed",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1609/aaai.v39i5.32480"
+        }
+      ],
+      "shortVenue": "AAAI",
+      "summary": ""
+    },
+    {
+      "authors": "Soyeon Kim, Junho Choi, Subeen Lee, and Jaesik Choi",
+      "title": "Unsupervised Concept Discovery for Deep Weather Forecast Models with High-Resolution Radar Data",
+      "venue": "PLOS Climate 4(9):e0000633, 2025.",
+      "year": 2025,
+      "status": "peer-reviewed",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1371/journal.pclm.0000633"
+        }
+      ],
+      "shortVenue": "PLOS Climate",
+      "summary": ""
+    },
+    {
+      "authors": "Soyeon Kim, Junho Choi, Subeen Lee, and Jaesik Choi",
+      "title": "Example-Based Concept Analysis Framework for Deep Weather Forecast Models",
+      "venue": "Artificial Intelligence for the Earth Systems 4(3), 2025.",
+      "year": 2025,
+      "status": "peer-reviewed",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1175/AIES-D-24-0079.1"
+        }
+      ],
+      "shortVenue": "AIES",
+      "summary": ""
+    },
+    {
+      "authors": "Soyeon Kim, Jihyeon Seong, Hyunkyung Han, and Jaesik Choi",
+      "title": "Capsule Neural Networks as Noise Stabilizer for Time Series Data",
+      "venue": "Journal of KIISE 51(8):678–684, 2024.",
+      "year": 2024,
+      "status": "peer-reviewed",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.5626/JOK.2024.51.8.678"
+        }
+      ],
+      "shortVenue": "J. KIISE",
+      "summary": ""
+    },
+    {
+      "authors": "Soyeon Kim, Junho Choi, Yeji Choi, Subeen Lee, Artyom Stitsyuk, Minkyoung Park, Seongyeop Jeong, Youhyun Baek, and Jaesik Choi",
+      "title": "Explainable AI-Based Interface System for Weather Forecasting Model",
+      "venue": "HCI International 2023 - Late Breaking Papers, LNCS 14059:101–119, 2023.",
+      "year": 2023,
+      "status": "peer-reviewed",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1007/978-3-031-48057-7_7"
+        }
+      ],
+      "shortVenue": "HCI",
+      "summary": ""
+    },
+    {
+      "authors": "Boseon Yoo, Jiwoo Lee, Janghoon Ju, Seijun Chung, Soyeon Kim, and Jaesik Choi",
+      "title": "Conditional Temporal Neural Processes with Covariance Loss",
+      "venue": "Proceedings of the 38th International Conference on Machine Learning (PMLR 139):12051–12061, 2021.",
+      "year": 2021,
+      "status": "peer-reviewed",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://proceedings.mlr.press/v139/yoo21b.html"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/boseon-ai/Conditional-Temporal-Neural-Processes-with-Covariance-Loss"
+        }
+      ],
+      "shortVenue": "ICML",
+      "summary": ""
+    },
+    {
+      "authors": "Soyeon Kim, Yonghoon Son, and Hajung Ko",
+      "title": "Establishing Assessment Index of Prioritization of Building for Long-term Unexecuted Urban Parks: Considering the Urban Natural Park Area",
+      "venue": "The Study of Suwonology 14:77–105, 2019. In Korean. Research grant: KRW 2 million.",
+      "year": 2019,
+      "status": "peer-reviewed",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://www.suwon.re.kr/board/downloadv.php?bo_table=suwon_research&wr_id=36&no=0&page=81"
+        }
+      ],
+      "shortVenue": "Suwonology",
+      "summary": ""
+    },
+    {
+      "authors": "Youngjo Yun and Soyeon Kim",
+      "title": "Interspace Memorial Design in Urban Street: Fence Opening Design of The War Memorial of Korea’s Plaza",
+      "venue": "Journal of Design & Arts 18:3–24, 2016. In Korean.",
+      "year": 2016,
+      "status": "peer-reviewed",
+      "links": [],
+      "shortVenue": "Design & Arts",
+      "summary": ""
+    }
+  ],
+  "underReview": [
+    {
+      "authors": "Soyeon Kim, Seongwoo Lim, Kyowoon Lee, and Jaesik Choi",
+      "title": "Robust Path Attribution in Piecewise Linear Neural Networks via Dummy-Constrained Optimization",
+      "venue": "Under review at the Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS), 2026.",
+      "year": 2026,
+      "status": "under review",
+      "links": []
+    }
+  ],
+  "inPreparation": [
+    {
+      "authors": "Soyeon Kim, Ilkwon Kim, and Hyeoksu Kwon",
+      "title": "A Delphi-Matrix Approach to Environmental Impact Assessment Integrated with Ecosystem Services",
+      "venue": "Manuscript in preparation, 2020.",
+      "year": 2020,
+      "status": "in preparation",
+      "links": []
+    }
+  ],
+  "presentations": [
+    "1. “What Can GIS Do to Save Urban Parks That Will Disappear All at Once? Prioritizing Installation and Cancellation of Long-Term Unexecuted Urban Parks (LUUP).” Esri User Conference, San Diego, CA, USA, 2018. Young Scholar Award.",
+    "2. “Explainable Artificial Intelligence for Precipitation Forecasting.” 60th Conference of the Korea Meteorological Society, Busan, Republic of Korea, 2023. Oral presentation.",
+    "3. “Explainability and Variable Importance of Deep Learning-Based Short-Term Precipitation Forecasting Model.” 60th Conference of the Korea Meteorological Society, Busan, Republic of Korea, 2023. Oral presentation.",
+    "4. “Which Explanation Is the Best? A Systematic Evaluation of Feature Attribution Methods on Precipitation Forecasting Model.” 60th Conference of the Korea Meteorological Society, Busan, Republic of Korea, 2023. Poster.",
+    "5. “User-Centric XAI Interface System for Weather Forecasting AI.” 60th Conference of the Korea Meteorological Society, Busan, Republic of Korea, 2023. Poster.",
+    "6. “Capsule Neural Networks as Noise Stabilizer for Time Series Data.” Korea Computer Congress, Jeju, Republic of Korea, 2023. Oral presentation. Best Paper Award.",
+    "7. “The Land Usage Types of Suburban Forest Boundaries.” Autumn Conference of the Korean Society of Environmental Landscape Architecture, Seoul, Republic of Korea, 2017. Oral presentation. Outstanding Presentation Award.",
+    "8. “Zoning Classes for Forest Visual Landscape Management in and around the Pyeongchang Winter Olympic Area: Focused on the Alpensia District, Pyeongchang, Gangwon-do.” Conference of the Korea Society of Environmental Restoration Technology, Seoul, Republic of Korea, 2013. Oral presentation."
+  ],
+  "awards": [
+    "ACM SIGKDD Artifact Badge, for research artifact availability and reproducibility associated with “Spectral Integrated Gradients for Coarse-to-Fine Feature Attribution,” KDD 2026 Artifact Badging, 2026",
+    "CVPR Compute Transparency Champion Award, for compute reporting associated with “Integrated Gradients with Diffusion for Flexible Input Attribution,” CVPR 2026 Compute Reporting Initiative, 2026",
+    "Graduation with Honors (Summa Cum Laude) and Outstanding Master’s Thesis Award, Seoul National University, 2019",
+    "Young Scholar Award, Esri User Conference, 2018",
+    "Japan Student Services Organization (JASSO) Scholarship for Short-Term Study, Chiba University, 2018",
+    "Outstanding Presentation Award, Autumn Conference of the Korean Environmental Landscape Architecture Society, 2017",
+    "Honorable Mention, Academic Paper Contest on the Quality of Life of Gyeonggi-do Residents, 2017",
+    "Graduation with Honors (Summa Cum Laude), Kangwon National University, 2016",
+    "National Science and Engineering Scholarship (Full Tuition), Korea Student Aid Foundation, 2014–2015",
+    "Academic Scholarship (Full Tuition), Kangwon National University, 2012–2013"
+  ],
+  "service": [
+    "Journal Reviewer: IEEE Transactions on Neural Networks and Learning Systems (2020)",
+    "Conference / ARR Reviewer or Subreviewer: NeurIPS (2023, 2025), ICLR (2023), UAI (2024), ACML (2024), ACL ARR (2025), SIGKDD (2026)"
+  ]
+}
