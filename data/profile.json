@@ -194,9 +194,10 @@
       "shortVenue": "Findings of ACL",
       "summary": "Evaluating meteorological reasoning through expert knowledge, local context, and multimodal understanding.",
       "thumbnail": {
-        "src": "/publications/k-metbench.png",
-        "alt": "K-MetBench example with a jet-streak diagram and four meteorological evaluation dimensions.",
-        "source": "https://arxiv.org/html/2604.24645v1/x1.png"
+        "src": "/publications/k-metbench-main.png",
+        "alt": "K-MetBench jet-streak question illustrating visual reasoning, reasoning evaluation, local specificity, and granular analysis.",
+        "source": "User-provided main.pdf, page 1",
+        "portrait": true
       }
     },
     {
