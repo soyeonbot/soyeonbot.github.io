@@ -295,9 +295,9 @@
       "shortVenue": "HCI",
       "summary": "",
       "thumbnail": {
-        "src": "/publications/hci-figure.png",
-        "alt": "Weather explanation interface prototype with radar predictions, performance chart, attribution maps, and confidence displays.",
-        "source": "https://arxiv.org/pdf/2504.00795"
+        "src": "/publications/hcii-weather-interface.png",
+        "alt": "Weather forecasting explanation interface showing radar input, predictions, model performance, confidence, and feature attribution maps.",
+        "source": "User-provided hcii.png"
       }
     },
     {
