@@ -352,7 +352,12 @@
       "status": "peer-reviewed",
       "links": [],
       "shortVenue": "Design & Arts",
-      "summary": ""
+      "summary": "",
+      "thumbnail": {
+        "src": "/publications/design-and-arts-memorial.png",
+        "alt": "Landscape plan for the fence opening design of the War Memorial of Korea plaza.",
+        "source": "User-provided arts.png"
+      }
     }
   ],
   "underReview": [
