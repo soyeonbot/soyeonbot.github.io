@@ -105,9 +105,9 @@
       "shortVenue": "ECCV",
       "summary": "Learning a distribution over attribution paths with diffusion models, enabling explanations that can be guided at inference time.",
       "thumbnail": {
-        "src": "/publications/diffusion-integrated-gradients.jpg",
-        "alt": "Diffusion denoising progressively refines attribution paths and intermediate cat images.",
-        "source": "https://leekwoon.github.io/assets/img/projects/dig/thumbnail.jpg"
+        "src": "/publications/diffusion-integrated-gradients-poster.png",
+        "alt": "DiffIG overview comparing adaptive paths, global optimization, and controllability.",
+        "source": "User-provided poster_thumbnail.pdf, page 1"
       }
     },
     {
@@ -133,9 +133,10 @@
       "shortVenue": "KDD",
       "summary": "Constructing attribution paths through singular components, revealing global structure before fine details.",
       "thumbnail": {
-        "src": "/publications/spectral-integrated-gradients.png",
-        "alt": "Spectral and straight-line integrated-gradient paths compared on a classifier logit landscape.",
-        "source": "https://leekwoon.github.io/assets/img/projects/sig/thumbnail.png"
+        "src": "/publications/spectral-integrated-gradients-poster.jpg",
+        "alt": "Spectral Integrated Gradients poster comparing coarse-to-fine spectral paths with linear integrated gradients.",
+        "source": "User-provided kdd_thumbnail_1258X1633.jpg",
+        "portrait": true
       }
     },
     {
@@ -335,7 +336,12 @@
         }
       ],
       "shortVenue": "Suwonology",
-      "summary": ""
+      "summary": "",
+      "thumbnail": {
+        "src": "/publications/suwonology.png",
+        "alt": "Maps of composite assessment scores and long-term unexecuted urban parks in Suwon.",
+        "source": "User-provided suwonology.png"
+      }
     },
     {
       "authors": "Youngjo Yun and Soyeon Kim",

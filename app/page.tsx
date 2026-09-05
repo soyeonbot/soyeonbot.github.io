@@ -1,4 +1,4 @@
-import { ArrowDown, ArrowUpRight, Mail, MapPin, FileText } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, Mail, MapPin } from 'lucide-react';
 import profile from '../data/profile.json';
 
 type Paper = {
@@ -9,7 +9,7 @@ type Paper = {
   links: { label: string; url: string }[];
   shortVenue?: string;
   summary?: string;
-  thumbnail?: { src: string; alt: string; source: string };
+  thumbnail?: { src: string; alt: string; source: string; portrait?: boolean };
 };
 function Authors({ names }: { names: string }) {
   const parts = names.split('Soyeon Kim');
@@ -29,25 +29,22 @@ function Publication({ paper }: { paper: Paper }) {
   const preview = paper.thumbnail ? (
     <img
       src={paper.thumbnail.src}
+      className={paper.thumbnail.portrait ? 'paper-image-portrait' : undefined}
       alt={paper.thumbnail.alt}
       width={360}
       height={260}
       loading="lazy"
       decoding="async"
     />
-  ) : (
-    <div
-      className="publication-document"
-      aria-label="Publication preview unavailable"
-    >
-      <FileText size={30} aria-hidden="true" />
-      <span>{paper.shortVenue || 'Manuscript'}</span>
-      <span>{paper.year}</span>
-    </div>
-  );
+  ) : null;
   return (
     <article className="publication">
-      {paperLink ? (
+      {!paper.thumbnail ? (
+        <div
+          className="paper-thumbnail paper-thumbnail-empty"
+          aria-hidden="true"
+        />
+      ) : paperLink ? (
         <a
           className="paper-thumbnail"
           href={paperLink}
@@ -318,20 +315,6 @@ export default function Home() {
               </a>
             </div>
           </div>
-        </section>
-        <section className="contact-section" id="contact">
-          <div>
-            <p className="eyebrow">GET IN TOUCH</p>
-            <h2>Let’s connect.</h2>
-            <p>
-              For research inquiries and conversations about explainable AI,
-              weather, and environmental systems.
-            </p>
-          </div>
-          <a href={`mailto:${profile.email}`} className="contact-link">
-            {profile.email}
-            <ArrowUpRight size={20} />
-          </a>
         </section>
       </main>
       <footer>

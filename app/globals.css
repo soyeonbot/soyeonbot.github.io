@@ -288,22 +288,6 @@ h2 {
 .paper-thumbnail:hover img {
   opacity: 0.9;
 }
-.publication-document {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  width: 100%;
-  min-height: 130px;
-  border: 1px solid var(--border);
-  color: #727b73;
-  font-size: 14px;
-  text-align: center;
-}
-.publication-document svg {
-  margin-bottom: 5px;
-}
 h3 {
   font-size: 16px;
   font-weight: 600;
@@ -445,29 +429,6 @@ h4 {
   font-size: 14px;
   margin-top: 23px;
 }
-.contact-section {
-  border-top: 1px solid var(--border);
-  padding: 32px 0 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 32px;
-}
-.contact-section p:not(.eyebrow) {
-  font-size: 14px;
-  color: #626b65;
-  line-height: 1.7;
-  max-width: 400px;
-  margin-top: 12px;
-}
-.contact-link {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  color: var(--primary);
-  font-size: 18px;
-  white-space: nowrap;
-}
 footer {
   display: flex;
   justify-content: space-between;
@@ -549,11 +510,6 @@ footer {
   .background-grid,
   .community-grid {
     gap: 32px;
-  }
-  .contact-section {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
   }
 }
 @media (max-width: 580px) {
@@ -665,9 +621,6 @@ footer {
   .skip-link,
   .social-links,
   footer,
-  .contact-section {
-    display: none;
-  }
   main {
     max-width: none;
     margin: 0;
@@ -681,5 +634,16 @@ footer {
   }
   a {
     color: inherit;
+  }
+}
+
+/* Preserve the supplied SIG poster without cropping its content. */
+.paper-thumbnail img.paper-image-portrait {
+  height: 240px;
+  object-fit: contain;
+}
+@media (max-width: 580px) {
+  .paper-thumbnail-empty {
+    display: none;
   }
 }
