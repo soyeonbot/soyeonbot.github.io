@@ -103,7 +103,12 @@
         }
       ],
       "shortVenue": "ECCV",
-      "summary": "Learning a distribution over attribution paths with diffusion models, enabling explanations that can be guided at inference time."
+      "summary": "Learning a distribution over attribution paths with diffusion models, enabling explanations that can be guided at inference time.",
+      "thumbnail": {
+        "src": "/publications/diffusion-integrated-gradients.jpg",
+        "alt": "Diffusion denoising progressively refines attribution paths and intermediate cat images.",
+        "source": "https://leekwoon.github.io/assets/img/projects/dig/thumbnail.jpg"
+      }
     },
     {
       "authors": "Soyeon Kim, Seongwoo Lim, Kyowoon Lee, and Jaesik Choi",
@@ -126,7 +131,12 @@
         }
       ],
       "shortVenue": "KDD",
-      "summary": "Constructing attribution paths through singular components, revealing global structure before fine details."
+      "summary": "Constructing attribution paths through singular components, revealing global structure before fine details.",
+      "thumbnail": {
+        "src": "/publications/spectral-integrated-gradients.png",
+        "alt": "Spectral and straight-line integrated-gradient paths compared on a classifier logit landscape.",
+        "source": "https://leekwoon.github.io/assets/img/projects/sig/thumbnail.png"
+      }
     },
     {
       "authors": "Soyeon Kim, Seongwoo Lim, Kyowoon Lee, and Jaesik Choi",
@@ -149,7 +159,12 @@
         }
       ],
       "shortVenue": "ICML",
-      "summary": "Using the latent space of a generative model to keep attribution paths closer to the learned data manifold."
+      "summary": "Using the latent space of a generative model to keep attribution paths closer to the learned data manifold.",
+      "thumbnail": {
+        "src": "/publications/manifold-aligned-guided-integrated-gradients.png",
+        "alt": "MA-GIG overview showing noise-robust gradient guidance and manifold-aligned updates.",
+        "source": "https://leekwoon.github.io/assets/img/projects/ma-gig/thumbnail.png"
+      }
     },
     {
       "authors": "Soyeon Kim, Cheongwoong Kang, Myeongjin Lee, Eun-Chul Chang, Jaedeok Lee, and Jaesik Choi",
@@ -176,7 +191,12 @@
         }
       ],
       "shortVenue": "Findings of ACL",
-      "summary": "Evaluating meteorological reasoning through expert knowledge, local context, and multimodal understanding."
+      "summary": "Evaluating meteorological reasoning through expert knowledge, local context, and multimodal understanding.",
+      "thumbnail": {
+        "src": "/publications/k-metbench.png",
+        "alt": "K-MetBench example with a jet-streak diagram and four meteorological evaluation dimensions.",
+        "source": "https://arxiv.org/html/2604.24645v1/x1.png"
+      }
     },
     {
       "authors": "Subeen Lee, Jiyeon Han, Soyeon Kim, and Jaesik Choi",
@@ -191,7 +211,12 @@
         }
       ],
       "shortVenue": "AAAI",
-      "summary": ""
+      "summary": "",
+      "thumbnail": {
+        "src": "/publications/diverse-rare.png",
+        "alt": "Original GAN sample grid illustrating increasingly rare and diverse generated faces.",
+        "source": "https://han-j-y.github.io/images/diverse_rare.png"
+      }
     },
     {
       "authors": "Soyeon Kim, Junho Choi, Subeen Lee, and Jaesik Choi",
@@ -206,7 +231,12 @@
         }
       ],
       "shortVenue": "PLOS Climate",
-      "summary": ""
+      "summary": "",
+      "thumbnail": {
+        "src": "/publications/plos.png",
+        "alt": "Radar forecasting model and discovered frontal, convectional, cyclonic, and orographic precipitation concepts.",
+        "source": "https://journals.plos.org/climate/article/figure/image?download=&id=10.1371%2Fjournal.pclm.0000633.g001&size=large"
+      }
     },
     {
       "authors": "Soyeon Kim, Junho Choi, Subeen Lee, and Jaesik Choi",
@@ -221,7 +251,12 @@
         }
       ],
       "shortVenue": "AIES",
-      "summary": ""
+      "summary": "",
+      "thumbnail": {
+        "src": "/publications/aies-figure.png",
+        "alt": "Concept prober training diagram connecting a precipitation forecast model to radar examples in a concept vector space.",
+        "source": "https://arxiv.org/pdf/2504.00831"
+      }
     },
     {
       "authors": "Soyeon Kim, Jihyeon Seong, Hyunkyung Han, and Jaesik Choi",
@@ -236,7 +271,12 @@
         }
       ],
       "shortVenue": "J. KIISE",
-      "summary": ""
+      "summary": "",
+      "thumbnail": {
+        "src": "/publications/capsule-figure.png",
+        "alt": "Dynamic routing capsule network architecture for one-dimensional time series classification and reconstruction.",
+        "source": "https://arxiv.org/pdf/2403.13867"
+      }
     },
     {
       "authors": "Soyeon Kim, Junho Choi, Yeji Choi, Subeen Lee, Artyom Stitsyuk, Minkyoung Park, Seongyeop Jeong, Youhyun Baek, and Jaesik Choi",
@@ -251,7 +291,12 @@
         }
       ],
       "shortVenue": "HCI",
-      "summary": ""
+      "summary": "",
+      "thumbnail": {
+        "src": "/publications/hci-figure.png",
+        "alt": "Weather explanation interface prototype with radar predictions, performance chart, attribution maps, and confidence displays.",
+        "source": "https://arxiv.org/pdf/2504.00795"
+      }
     },
     {
       "authors": "Boseon Yoo, Jiwoo Lee, Janghoon Ju, Seijun Chung, Soyeon Kim, and Jaesik Choi",
@@ -270,7 +315,12 @@
         }
       ],
       "shortVenue": "ICML",
-      "summary": ""
+      "summary": "",
+      "thumbnail": {
+        "src": "/publications/icml-figure.png",
+        "alt": "Covariance loss overview showing temporal inputs, learned basis functions, and target covariance matrices.",
+        "source": "https://proceedings.mlr.press/v139/yoo21b/yoo21b.pdf"
+      }
     },
     {
       "authors": "Soyeon Kim, Yonghoon Son, and Hajung Ko",
@@ -305,7 +355,12 @@
       "venue": "Under review at the Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS), 2026.",
       "year": 2026,
       "status": "under review",
-      "links": []
+      "links": [],
+      "thumbnail": {
+        "src": "/publications/robust-path-attribution.png",
+        "alt": "DCAPM and integrated gradients compared through logit curves, intermediate images, and attribution maps.",
+        "source": "https://leekwoon.github.io/assets/img/projects/dcapm/thumbnail.png"
+      }
     }
   ],
   "inPreparation": [

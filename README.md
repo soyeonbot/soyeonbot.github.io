@@ -13,7 +13,7 @@ The English website presents research in explainable AI, weather intelligence, a
 - `public/og.png`: social sharing card.
 - `app/layout.tsx`: page title, description, canonical URL, and social metadata.
 
-The first seven publication records appear under Recent work; older records are in the expandable Earlier publications section. Update the selected counts and year labels when adding papers. Review current manuscript status before changing a venue or acceptance label. The CVPR compute reporting award describes a compute-reporting initiative; it does not indicate a CVPR paper acceptance.
+All publication records are shown in one continuous list, without a collapsed older-publications section. Update the year range when adding papers. Review current manuscript status before changing a venue or acceptance label. The CVPR compute reporting award describes a compute-reporting initiative; it does not indicate a CVPR paper acceptance.
 
 ## Local development
 
@@ -40,3 +40,9 @@ GitHub Pages is configured to publish through GitHub Actions. Pushing to `main` 
 - https://han-j-y.github.io/
 
 The design is an original implementation inspired by the supplied references' concise academic introductions and publication-focused organization. No third-party portrait or source code was copied.
+
+## Fonts and images
+
+The page uses Helvetica when installed, with a self-hosted Arimo fallback (SIL Open Font License, included at `public/fonts/Arimo-OFL.txt`). Text sizes range from 14 to 32 px. The portrait is the user-provided original, copied to `public/images/soyeon-kim.jpg`.
+
+Each available publication figure is stored in `public/publications/`; its original source and descriptive alternative text are recorded in `data/profile.json` under `thumbnail`. Figures come from the matching coauthor pages or original papers. Thumbnail containers use `object-fit: contain` to preserve the complete figures. The 2016 and 2019 papers have a neutral document icon because an original figure was unavailable. Add a verified `thumbnail` entry to replace it.
